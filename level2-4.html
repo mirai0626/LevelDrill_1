@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
@@ -21,20 +21,24 @@
     <script>
       //下記の変数を使って、セーラーウラヌスとセーラーネプチューンをセーラームーンに追加してください。
       //例
-      const sailorSensi = document.querySelector(".sailersenshi");
-      const liElm1 = document.createElement("li");
-      const chibiusa = "セーラーちびムーン";
-      const liElm1 = document.createElement("li");
+      const sailorSensi = document.querySelector('.sailersenshi');
+      const liElm1 = document.createElement('li');
+      const chibiusa = 'セーラーちびムーン';
+      const liElm2 = document.createElement('li');
       liElm1.textContent = chibiusa;
       sailorSensi.appendChild(liElm1);
 
       //セーラーウラヌス
-      const uranus = "セーラーウラヌス";
-      const liElm2 = document.createElement("li");
+      const uranus = 'セーラーウラヌス';
+      const liElm3 = document.createElement('li');
+      liElm2.textContent = uranus;
+      liElm1.appendChild(liElm2);
 
       //セーラーネプチューン
-      const neptune = "セーラーネプチューン";
-      const liElm3 = document.createElement("li");
+      const neptune = 'セーラーネプチューン';
+      const liElm4 = document.createElement('li');
+      liElm3.textContent = neptune;
+      liElm1.appendChild(liElm3);
     </script>
   </body>
 </html>
